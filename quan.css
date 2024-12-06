@@ -1,0 +1,29 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    background-color: #09c;
+    border: 1px solid white;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    border-radius: 30px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+li a:hover{
+    border: 1px solid #09c;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #09c;
+}
+li a:active{
+    background-color: #09c;
+}
